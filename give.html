@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/give.css">
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet"><!--This is the google font used for body text-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+
+    <title></title>
+  </head>
+  <body>
+
+    <img src="img/background2.jpg" alt="backg">
+    <div class="topbanner">
+
+      <a href="index.html"><img src="img/newlogo.png" alt="logo"></a>
+      <ul class="nav">
+
+      <li><a href="about.html">ABOUT MB</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+      <li><a href="give.html">WAYS TO GIVE</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="devo.html">DEVOTIONS</a></li>
+      </ul>
+    </div>
+
+    <div class="giveleftcon">
+      <img src="img/tealback1.png" alt="">
+      <h1>How To Help</h1>
+      <p>"Fear not for I am with you; be not dismayed, for I am your God; I will strengthen
+        you, I will help you, I will uphold you with my righteous hand." Isiah 41:10</p>
+    </div>
+
+    <!---Slideshow HTML/ Javascript-->
+      <div class="slideshow-container">
+            <!-- Slides -->
+            <div class="slideswip"> <img src="img/slideimg10.jpg"> </div>
+            <div class="slideswip"> <img src="img/slideimg6.jpg"> </div>
+            <div class="slideswip"> <img src="img/slideimg8.jpg"> </div>
+            <div class="slideswip"> <img src="img/slideimg2.jpg"> </div>
+            <div class="slideswip"> <img src="img/slideimg7.jpg"> </div>
+            <div class="slideswip"> <img src="img/slideimg3.jpg"> </div>
+            <div class="slideswip"> <img src="img/slideimg4.jpg"> </div>
+
+
+
+<!-- Nav button for slideshow -->
+            <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+            <hr class="oneline">
+
+      </div>
+
+    <div class="giveitems">
+      <div class="redbox"></div>
+
+      <h2>Donations for Mercy Backpack</h2>
+      <div class="borderbox"></div>
+
+      <p>Donations are welcomed. The men and women served by the University of Maryland
+      Violence Prevention Program are often in need of basic toiletries upon thier
+      release from the hospital. Please know there is an ongoing need for all the items
+      listed below. Consider joining us as we strive to provide pratical assistance to
+      Victims of gun violence in the Baltimore area.</p>
+    </div>
+
+    <div class="donations">
+      <div class="greybox"></div>
+      <hr class="line2">
+      <h1>Items Needed for Mercy Backpacks</h1>
+      <!--<p>Any Donations of these items would be greatly appreicated,Thank you!</p>-->
+      <!---<img src="img/tealwide1.png" alt="">--->
+      <div class="tealbox"></div>
+      <ul>
+        <li><span></span>Bibles(Any translation)</li>
+        <li><span></span>Gospel Tracts</li>
+        <li><span></span>Backpacks (Good condtion)</li>
+        <li><span></span>Soap(Bars)</li>
+        <li><span></span>Deodorant</li>
+        <li><span></span>Toothbrushes</li>
+        <li><span></span>Toothpaste</li>
+        <li><span></span>Toliet Paper</li>
+        <li><span></span>Skull Caps(Winter)</li>
+        <li><span></span>Gloves(Winter)</li>
+        <li><span></span>Disposable Razor Blades</li>
+        <li><span></span>Shaving Cream</li>
+        <li><span></span>Body Lotion</li>
+        <li><span></span>Hand Warmers</li>
+        <li><span></span>Hand Sanitizer</li>
+        <li><span></span>Sweat Socks</li>
+        <li><span></span>Disposable Face Mask</li>
+      </ul>
+      <h3>For doantions and ways to help please contact Ronald Nix at info@mercybackpack.org
+      or by clicking the link below.</h3>
+      <li><a href="contact.html">CLICK HERE</a></li>
+    </div>
+
+
+    <!---Footer--->
+        <div class="footer">
+          <img src="img/baglogo.png" alt="backpack logo">
+
+          <h1>Mission Statment</h1>
+          <hr class="line6">
+          <p>"Showing the love of Christ to Victims of Gun Violence."
+          Assisting Shock Trauma Patients Returning Home from Treatment
+          in Baltimore, MD.</p>
+
+
+          <div class="quicklinks">
+            <h1>Quick Links:</h1>
+            <hr class="line7">
+
+            <ul>
+              <li><a href="about.html">ABOUT MB</a></li>
+              <li><a href="give.html">WAYS TO GIVE</a></li>
+              <!--<li><a href="faq.html">FAQ</a></li>-->
+            </ul>
+          </div>
+
+          <div class="contact">
+            <h1>Contact Us</h1>
+            <hr class="line8">
+            <p>Want to contact MercyBackpacks? Click the link below.</p>
+            <img src="img/emailimg.png" alt="email icon">
+            <ul>
+              <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+<!---Script------>
+        <script>
+          var slideIndex = 0;
+          showSlides();
+
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("slideswip");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 4000); // Change image every 4 seconds
+          }
+
+        </script>
+
+
+
+
+  </body>
+</html>
